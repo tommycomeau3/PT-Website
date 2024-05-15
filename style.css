@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: block;
+    background-color: #fff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    font-size: 1.7rem;
+    height: auto;
+    left: 0;
+    padding: 25px 40px 25px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    display: flex;
+    height: 75px;
+}
+
+.logo {
+    font-size: 19.89px;
+    color: #2d2e32;
+    font-weight: 900;
+    margin-left: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+nav ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    margin-right: 150px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    font-family: "Bebas Neue", sans-serif;
+    color: #2d2e32;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all .23s;
+    font-size: 22.5px;
+}
