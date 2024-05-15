@@ -23,8 +23,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    background-color: black;
     font-size: 1.7rem;
     height: auto;
     left: 0;
@@ -40,9 +39,10 @@ nav {
     align-items: center;
 }
 
-.logo-img {
+.fa-solid {
     display: flex;
-    height: 75px;
+    font-size: 35px;
+    color: white;
 }
 
 .logo {
@@ -54,6 +54,7 @@ nav {
     font-weight: 400;
     font-style: normal;
     font-size: 35px;
+    color: white;
 }
 
 nav ul {
@@ -70,7 +71,7 @@ nav ul li {
 
 nav ul a {
     font-family: "Bebas Neue", sans-serif;
-    color: #2d2e32;
+    color: white;
     font-weight: 700;
     text-decoration: none;
     transition: all .23s;
