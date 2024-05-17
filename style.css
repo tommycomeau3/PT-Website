@@ -24,9 +24,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     background-color: black;
-    height: 55px;
+    height: 8vh;
     left: 0;
-    padding: 15px 40px 15px 50px;
+    padding: 15px 40px 15px 30px;
     top: 0;
     width: 100%;
 }
@@ -84,7 +84,7 @@ nav ul a {
 
 .hero-img {
     width: 100%;
-    height: 675px; /* Adjust the height to fit your design */
+    height: 92vh; /* Adjust the height to fit your design */
     background-image: url("fitness-time-pictures-for-background-wallpaper-preview.jpg"); /* Use the new image URL */
     background-size: cover; /* This ensures the image covers the entire div */
     background-position: center; /* Center the image */
@@ -97,18 +97,17 @@ nav ul a {
 
 .hero-button {
     padding: 20px 60px;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     font-family: "Bebas Neue", sans-serif;
-    color: black;
-    background-color: white;
-    border: 5px solid black; /* Add border here */
+    color: white;
+    background-color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 @media (max-width: 900px) {   
     nav {
-        padding: 15px 40px 15px 50px;
+        padding: 15px 40px 15px 30px;
     }
 
     nav ul {
