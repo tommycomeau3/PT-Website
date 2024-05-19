@@ -78,31 +78,77 @@ nav ul a {
     background-color: none;
 }
 
-.mobile-nav-toggle {
-    background-color: none;
+.mobile-navigation {
+    display: none;
+}
+
+.stuff {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    padding-right: 20vw;
 }
 
 .hero-img {
     width: 100%;
     height: 92vh; /* Adjust the height to fit your design */
-    background-image: url("fitness-time-pictures-for-background-wallpaper-preview.jpg"); /* Use the new image URL */
+    background-image: url("try.jpg"); /* Use the new image URL */
     background-size: cover; /* This ensures the image covers the entire div */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Ensure the image does not repeat */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     position: relative;
+    padding-right: 8vw;
 }
 
-.hero-button {
-    padding: 20px 60px;
-    font-size: 2.5rem;
+.hero-button-1 {
+    padding: 12px 30px;
+    font-size: 2rem;
     font-family: "Bebas Neue", sans-serif;
     color: white;
     background-color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    align-self: flex-start; /* Align button to the start (left) */
+    margin-top: 10px; /* Add some space between the text and the button */
+    margin-right: 15px;
+}
+
+.hero-button-2 {
+    padding: 12px 30px;
+    font-size: 2rem;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; /* Align button to the start (left) */
+    margin-top: 10px; /* Add some space between the text and the button */
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
+    text-align: left;
+}
+
+.personal-training {
+    font-size: 3rem;
+    color: white;
+    margin: 0;
+    font-size: 8rem;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.hero-description {
+    font-size: 3rem;
+    font-family: "Bebas Neue", sans-serif;
+    color: black; /* This should change the color of the text to red */
+    max-width: 550px; /* Optional: limit the width of the paragraph */
 }
 
 @media (max-width: 900px) {   
@@ -143,4 +189,59 @@ nav ul a {
         font-size: 20px;
         margin-right: -80px;
     }
+
+    .nav-link {
+        display: none;
+    }
+
+
+    .mobile-navigation {
+        display: flex;
+        position: fixed;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        inset: 0 0 0 0;
+        list-style: none;
+        padding: min(20rem, 15vh) 2rem;
+        margin: 0;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 500ms ease-in-out;
+        background-color: white;
+        text-align: center;
+    }
+
+    .mobile-navigation ul a {
+        color: #000;
+        font-weight: 500;
+        text-decoration: none;
+        font-family: 'Poppins','sans-serif';
+    }
+
+    .mobile-navigation ul a:hover {
+        color: #147efb;
+        transition: color 0.5s ease;
+    }
+
+    .mobile-navigation ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 2.3rem;
+        gap: 4rem;
+        list-style: none;
+    }
+
+    .mobile-navigation span {
+        cursor: pointer;
+        font-size: 3.3rem;
+        position: absolute;
+        right: 4rem;
+        top: 2rem; 
+    }
+    
+   .mobile-navigation[data-visible="true"] {
+        transform: translateX(0);
+    }
+
 }
