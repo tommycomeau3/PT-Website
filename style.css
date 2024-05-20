@@ -25,9 +25,7 @@ nav {
     justify-content: space-between;
     background-color: black;
     height: 8vh;
-    left: 0;
     padding: 15px 40px 15px 30px;
-    top: 0;
     width: 100%;
 }
 
@@ -92,11 +90,11 @@ nav ul a {
 
 .hero-img {
     width: 100%;
-    height: 92vh; /* Adjust the height to fit your design */
-    background-image: url("try.jpg"); /* Use the new image URL */
-    background-size: cover; /* This ensures the image covers the entire div */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Ensure the image does not repeat */
+    height: 92vh;
+    background-image: url("try.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
     display: flex;
     align-items: center;
     justify-content: right;
@@ -113,15 +111,15 @@ nav ul a {
     background-color: black;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    align-self: flex-start; /* Align button to the start (left) */
-    margin-top: 10px; /* Add some space between the text and the button */
+    align-self: flex-start;
+    margin-top: 10px; 
     margin-right: 15px;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the start (left) */
+    align-items: flex-start;
     text-align: left;
 }
 
@@ -139,8 +137,8 @@ nav ul a {
 .hero-description {
     font-size: 3rem;
     font-family: "Bebas Neue", sans-serif;
-    color: black; /* This should change the color of the text to red */
-    max-width: 550px; /* Optional: limit the width of the paragraph */
+    color: black; 
+    max-width: 550px; 
 }
 
 @media (max-width: 900px) {   
@@ -162,9 +160,9 @@ nav ul a {
     }
 
     .mobile-nav-toggle {
-        background-color: transparent; /* Use transparent instead of none */
-        border: none; /* Ensure there's no border */
-        cursor: pointer; /* Add cursor pointer for better UX */
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
     }
 
     nav {
@@ -209,11 +207,6 @@ nav ul a {
         font-family: 'Poppins','sans-serif';
     }
 
-    .mobile-navigation ul a:hover {
-        color: #147efb;
-        transition: color 0.5s ease;
-    }
-
     .mobile-navigation ul {
         display: flex;
         flex-direction: column;
@@ -239,7 +232,7 @@ nav ul a {
     }
 
     .hero-description {
-        max-width: 400px; /* Optional: limit the width of the paragraph */
+        max-width: 400px;
     }
 
     .personal-training-1, .personal-training-2 {
@@ -264,10 +257,10 @@ nav ul a {
     
     .hero-img {
         padding-right: 0;
-        background-position: 42.5% center; /* Adjust this value as needed */
+        background-position: 42.5% center;
     }
 
     .hero-description {
-        max-width: 300px; /* Optional: limit the width of the paragraph */
+        max-width: 300px;
     } 
 }
