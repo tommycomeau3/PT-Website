@@ -141,6 +141,63 @@ nav ul a {
     max-width: 550px; 
 }
 
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 4rem;
+    height: auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: row; /* Ensure children stack vertically */
+    align-items: flex-start; /* Align children to the start */
+}
+
+.about-heading p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 1px;
+    border-left: 1.5px solid black;
+    padding-left: 4px;
+}
+
+.about-heading h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin: 10px 0 20px 0;
+    line-height: 1.2;
+}
+
+.about-description p {
+    font-family: Verdana, Geneva, Tahoma;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #333;
+    max-width: 700px;
+}
+
+.about-button {
+    padding: 15px 30px;
+    font-size: 1.6rem;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
 @media (max-width: 900px) {   
     nav {
         padding: 15px 40px 15px 30px;
@@ -253,6 +310,15 @@ nav ul a {
         color: black;
     }
 
+    .hero-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-text {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 500px) {
@@ -267,5 +333,5 @@ nav ul a {
 
     .hero-description {
         max-width: 300px;
-    } 
+    }
 }
