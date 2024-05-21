@@ -142,15 +142,10 @@ nav ul a {
 }
 
 .about-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     padding: 4rem 4rem;
-    height: auto;
+    height: 100vh;
     max-width: 1000px;
     margin: 0 auto;
-    text-align: left;
 }
 
 .about-text {
@@ -196,6 +191,32 @@ nav ul a {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 20px;
+}
+
+.about-symbols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.about-symbols img {
+    height: 15rem;
+}
+
+.symbol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+
+.symbol p {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 @media (max-width: 900px) {   
