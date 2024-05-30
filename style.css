@@ -234,6 +234,28 @@ nav ul a {
     font-size: 12.5px;
 }
 
+.schedule-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.schedule-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Center horizontally */
+}
+
+.schedule-text p, h2{
+   color: white;
+}
+
+.schedule-image img {
+    width: 50vw;
+}
+
 @media (max-width: 900px) {   
     nav {
         padding: 15px 40px 15px 30px;
