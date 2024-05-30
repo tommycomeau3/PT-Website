@@ -143,6 +143,7 @@ nav ul a {
 
 .about-container {
     padding: 4rem 4rem;
+    padding-top: 8rem;
     height: 100vh;
     max-width: 1000px;
     margin: 0 auto;
@@ -194,15 +195,15 @@ nav ul a {
 }
 
 .about-symbols {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px; 
+    padding-top: 40px;
     padding-bottom: 70px;
 }
 
 .about-symbols img {
-    height: 15rem;
+    height: 10rem;
 }
 
 .symbol {
@@ -214,9 +215,23 @@ nav ul a {
 
 .symbol p {
     font-family: "Bebas Neue", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.symbol-rapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.symbol-info {
+    max-width: 125px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma;
+    font-size: 12.5px;
 }
 
 @media (max-width: 900px) {   
@@ -339,6 +354,13 @@ nav ul a {
     .about-text {
         flex-direction: column;
         align-items: flex-start;
+    }
+}
+
+@media (max-width: 700px) {
+    .about-symbols {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }
 
