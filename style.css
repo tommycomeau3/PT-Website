@@ -238,6 +238,8 @@ nav ul a {
     align-items: center;
     justify-content: space-between;
     background-color: #000;
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
 }
 
 .schedule-text {
@@ -271,6 +273,7 @@ nav ul a {
 
 .schedule-image img {
     width: 50vw;
+    object-fit: cover; /* Ensure the image covers the container */
 }
 
 .schedule-button {
