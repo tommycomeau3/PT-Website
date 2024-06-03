@@ -33,7 +33,7 @@ Many fitness professionals today are trying to innovate and redefine exercise ro
 
 ### Personal Training
 
-If you are looking for a personal trainer in the Newtown area, Real Fitness is here to help. Let qualified PTs Naomi Harvey and Gareth Kirk help you achieve your personal training fitness goals right here in our private Newtown gym.
+If you are looking for a personal trainer in the Bay area, Chase Williams is here to help. Let his knowledgeable advice help you to achieve your personal training fitness goals, right here in San Jose.
 
 ## Contact
 
